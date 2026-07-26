@@ -1,7 +1,19 @@
 aid: fairbanc
 name: Fairbanc
-description: Fairbanc is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fairbanc (PT Fairbanc Technologies Indonesia) is a Jakarta-based digital
+  finance platform that uses AI/ML-powered credit scoring to deliver embedded,
+  revolving supply-chain financing and buy-now-pay-later "terms of payment" to
+  micro, small, and medium enterprises (MSMEs) across Indonesia. Working with
+  trusted financial institutions and distributor/supply-chain ecosystems,
+  Fairbanc provides merchants with an instant digital facility limit and
+  short-term working-capital liquidity at the point of purchase — with no formal
+  loan application, smartphone, or app required — plus data intelligence and
+  consulting that help distributors reduce bad-debt risk and grow transaction
+  value. The company reports its terms-of-payment product drove roughly 35%
+  distributor sales growth. This is a company profile in the API Evangelist
+  network; Fairbanc publishes a consumer-facing marketing and onboarding site
+  but no public developer/API program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fairbanc.app/wp-content/uploads/2021/11/1_s986xIGqhfsN8U-09_AdA-1024x254.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Lending
+- Buy Now Pay Later
+- Embedded Finance
+- Supply Chain Finance
+- SME Financing
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fairbanc-domain-security.yml
 - type: Website
   url: https://fairbanc.app
+- type: GettingStarted
+  url: https://fairbanc.app/get-started/
+- type: Support
+  url: https://api.whatsapp.com/send?phone=628113172222
+- type: ConsumerProtectionPolicy
+  url: https://fairbanc.app/cpp/
+- type: LinkedIn
+  url: https://linkedin.com/company/fairbanc
+- type: Instagram
+  url: https://instagram.com/fairbancindonesia/
+- type: Facebook
+  url: https://www.facebook.com/fairbanctech
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
